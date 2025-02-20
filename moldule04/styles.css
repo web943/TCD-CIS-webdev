@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: square;
+    color: #ff5733;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    width: calc(70% - 1px);
+    float: left;
+    padding: 1rem;
+    border-right: 1px solid black;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    padding: 1rem;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
